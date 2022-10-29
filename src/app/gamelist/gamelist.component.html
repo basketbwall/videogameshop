@@ -1,8 +1,7 @@
 <p>gamelist works!</p>
-{{myData | json}}
+<!-- {{myData | json}} -->
 
 <ul>
     <!-- render a game item using game component -->
-    <li *ngFor="let item of myData">{{item['id']}}</li>
-    
+    <app-game *ngFor="let item of myData" [game]="item"></app-game>
 </ul>
