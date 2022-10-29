@@ -1,0 +1,11 @@
+.card {
+    border: solid black 1px;
+    padding: 2.5%;
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 2.5%;
+}
+
+.game-image {
+    max-width: 100%;
+}
