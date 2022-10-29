@@ -9,6 +9,7 @@ import { GamelistComponent } from './gamelist/gamelist.component';
 import { GameComponent } from './game/game.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import { TagsPipe } from './tags.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {MatButtonModule} from '@angular/material/button';
     NavComponent,
     HomeComponent,
     GamelistComponent,
-    GameComponent
+    GameComponent,
+    TagsPipe
   ],
   imports: [
     BrowserModule,
