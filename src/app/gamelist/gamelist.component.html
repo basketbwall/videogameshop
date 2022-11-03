@@ -1,7 +1,8 @@
 <p>gamelist works!</p>
 <!-- {{myData | json}} -->
 
-<ul>
-    <!-- render a game item using game component -->
-    <app-game *ngFor="let item of myData" [game]="item"></app-game>
-</ul>
+<div  class="gamesList">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <app-game fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="100%" fxFlex.md="50%"  *ngFor="let item of myData" [game]="item"></app-game>
+    </div>
+</div>

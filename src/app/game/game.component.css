@@ -1,4 +1,4 @@
-.card {
+/* .card {
     border: solid black 1px;
     padding: 2.5%;
     max-width: 75%;
@@ -8,4 +8,17 @@
 
 .game-image {
     max-width: 100%;
+} */
+
+.card {
+    max-width: 400px;
+    margin-bottom: 8px;
+}
+
+.game-image {
+    height: 186.359px;
+}
+
+.tags {
+    max-height: 50px;
 }
