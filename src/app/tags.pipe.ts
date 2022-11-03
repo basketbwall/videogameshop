@@ -9,6 +9,9 @@ export class TagsPipe implements PipeTransform {
     let retVal = "";
     for (let i=0; i<value.length; i++) {
       retVal += value[i]["name"] + ", "
+      if (retVal.length >= 30) {
+        return retVal
+      }
     }
     return retVal;
   }
