@@ -12,7 +12,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { TagsPipe } from './tags.pipe';
 import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { GameDetailComponent } from './game-detail/game-detail.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HomeComponent,
     GamelistComponent,
     GameComponent,
-    TagsPipe
+    TagsPipe,
+    GameDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
