@@ -14,6 +14,10 @@ import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { GameDetailComponent } from './game-detail/game-detail.component';
 import { RouterModule } from '@angular/router';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+
+
 
 @NgModule({
   declarations: [
@@ -33,7 +37,9 @@ import { RouterModule } from '@angular/router';
     MatButtonModule,
     MatCardModule,
     FlexLayoutModule,
-    RouterModule
+    RouterModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
