@@ -1,0 +1,16 @@
+ideas:
+make active route show in the navigation bar
+https://stackoverflow.com/questions/59268945/how-do-i-get-the-active-route-to-highlight-on-my-navbar
+add home page like old seagames website
+add review page
+store reviews in dynamodb?
+query params take game id to load the game detail component
+    - game detail component with next and prev buttons to look through different game ids
+build automated pipeline from github to github pages!!!
+
+
+
+
+
+stuff to learn:
+when and how to separate code into modules

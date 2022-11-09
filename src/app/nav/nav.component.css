@@ -2,3 +2,15 @@
     flex: 1 1 auto;
 }
 
+.active {
+    background-color: #673ab7;
+}
+
+mat-toolbar{
+    color: white;
+    background-color: rgb(17, 17, 17);
+}
+
+mat-toolbar > button {
+    margin-left: 10px;
+}
